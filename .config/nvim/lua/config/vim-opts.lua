@@ -58,3 +58,6 @@ vim.opt.fillchars = { eob = " " }
 
 -- highlight current line
 vim.opt.cursorline = true
+
+-- ask to save changes to a buffer, like during :q
+vim.o.confirm = true
