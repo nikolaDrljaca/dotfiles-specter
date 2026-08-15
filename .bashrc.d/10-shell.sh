@@ -41,3 +41,6 @@ alias l='ls -CF'
 
 export TERM=xterm-256color
 
+# homebrew
+eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
+
